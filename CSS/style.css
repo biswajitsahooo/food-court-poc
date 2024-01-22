@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body{
+  background-color: black;
+}
+:root{
+  --text-white: #f1f1f1;
+  --bg-dark: #0e0e0e;
+  --dark-mode-bg-green: #1B3621;
+  --dark-mode-bg-orange: #22190E;  
+  --text-green: #4bff7b;
+  --text-orange: #ffcc85;
+  --border-grey: #4a4a4a;
+  --border-orange: #af8b5580;
+  --border-green: #7dc5906e;
+}
+@font-face {
+  font-family: DMSans_bold;
+  src: url(/Assets/DM_Sans/static/DMSans-Bold.ttf);
+}
+@font-face {
+  font-family: DMSans_extrabold;
+  src: url(/Assets/DM_Sans/static/DMSans-Black.ttf);
+}
+@font-face {
+  font-family: DMSans_regular;
+  src: url(/Assets/DM_Sans/static/DMSans-Regular.ttf);
+}
+.main{
+  background-color: var(--bg-dark);
+  max-height: 100vh;
+
+}
+.headline-message h4{
+  font-weight: bold ;
+  color: var(--text-white);
+}
+.headline-message{
+  border-bottom: 1px solid  var(--border-grey) ;
+}
+.orders-in-queue-headline{
+  border-right: 1px solid var(--border-grey);
+
+}
+.orders-in-queue-table tr td{
+  font-size: 32px;
+  font-weight: 500;
+  background-color: var(--dark-mode-bg-orange);
+  color: var(--text-orange);
+}
+.orders-in-queue-table{
+  border-color: var(--border-orange) !important;
+}
+.order-no h1{
+  font-family: DMSans_bold;
+  font-size: 72px;
+  font-weight: bold;
+  color:var(--text-green);
+
+}
+.order-flash-section{
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--border-green)  !important;
+}
+.ready-to-collect-table tr td{
+  font-size: 32px;
+  font-weight: 500;
+  background-color: var(--dark-mode-bg-green);
+  color: var(--text-green);
+}
+.ready-to-collect-table{
+    border-color: var(--border-green) !important;
+}
+.customer-name-announce h2{
+  font-family: DMSans_extrabold;
+  color: var(--text-dark);
+}
+.orders-in-queue-headline{
+  font-family: DMSans_regular;
+  color: var(--text-white);
+
+}
+.ready-to-collect-headline{
+  font-family: DMSans_regular;
+  color: var(--text-white);
+}
+.ready-to-collect-section{
+  color: var(--text-white);
+}
+.left-ad{
+  background-color: orange;
+}
+.upper-ad{
+  height: 132px;
+  background-color: orange;
+}
