@@ -18,15 +18,15 @@ html, body{
 }
 @font-face {
   font-family: DMSans_bold;
-  src: url(/Assets/DM_Sans/static/DMSans-Bold.ttf);
+  src: url(/Assets/DM_Sans/static/DMSans-ExtraBold.woff);
 }
 @font-face {
-  font-family: DMSans_extrabold;
-  src: url(/Assets/DM_Sans/static/DMSans-Black.ttf);
+  font-family: DMSans_black;
+  src: url(/Assets/DM_Sans/static/DMSans-Black.woff);
 }
 @font-face {
   font-family: DMSans_regular;
-  src: url(/Assets/DM_Sans/static/DMSans-Regular.ttf);
+  src: url(/Assets/DM_Sans/static/DMSans-Regular.woff);
 }
 .main{
   background-color: var(--bg-dark);
@@ -74,7 +74,7 @@ html, body{
     border-color: var(--border-green) !important;
 }
 .customer-name-announce h2{
-  font-family: DMSans_extrabold;
+  font-family: DMSans_black;
   color: var(--text-dark);
 }
 .orders-in-queue-headline{
